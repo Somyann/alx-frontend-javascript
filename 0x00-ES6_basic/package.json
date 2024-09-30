@@ -4,11 +4,13 @@
   "description": "",
   "main": ".eslintrc.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "dev": "node 0-main.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "type": "module",
   "devDependencies": {
     "jest": "29.7.0",
     "babel-jest": "29.7.0",
